@@ -3,6 +3,7 @@ version: '3'
 services:
   sirius:
     image: sequoiatools/sirius
+    container_name: sirius
     build:
       context: .
       dockerfile: sirius.dockerfile
